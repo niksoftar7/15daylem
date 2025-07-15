@@ -4,6 +4,7 @@ import image1 from "../../public/img/image.png";
 import icono1 from "../../public/img/icono1.png";
 import image2 from "../../public/img/image2.png";
 import icono2 from "../../public/img/icono2.png";
+import icono3 from "../../public/img/icono3.png";
 import { Poppins } from "next/font/google";
 import { Rubik } from "next/font/google";
 export default function Invitacion15() {
@@ -21,20 +22,21 @@ export default function Invitacion15() {
   }}
 >
       
-        <div className='pt-50 pb-25'>
-        <Image
-          src={image1} // <-- Reemplaza esta ruta
-          alt="Quinceañera"
-          width={300}
-          height={300}
-          className="mx-auto rounded-xl shadow-md "
-        />
-        <div className=" text-center rounded-3xl shadow-lg p-6 max-w-md w-full font-sans space-y-4">
+        <div className='pt-175 pb-25'>
+        
+        <div className=" text-center rounded-3xl shadow-lg p-6 max-w-md w-full  space-y-4">
+        <p className="text-[#024873] text-[20px] font-bold font-[Poppins]">
+          ¡Con el corazón lleno de gratitud,   <br />
+          te invito a mis 15 años! <br />
+          
+        </p>
         <p className="text-gray-700 text-base leading-relaxed font-[rubik]">
-          Ya casi cumplo quince, <br />
-          Dios ha sido bueno conmigo. <br />
-          ¡Te invito a celebrar conmigo esta <br />
-          fecha inolvidable!
+          Dios ha sido fiel en cada paso de mi vida, <br />
+          y este día tan especial no sería igual sin ti.
+ <br />
+          Acompáñame a celebrar un sueño hecho realidad 
+
+
         </p>
         
         <p className="text-[22px] font-semibold">
@@ -49,48 +51,39 @@ export default function Invitacion15() {
         <div className="flex justify-center">
           <Image
             src={icono1} // <-- Reemplaza esta ruta
-            alt="Icono Iglesia"
+            alt="Icono restaurante"
             className="w-16 h-16 object-contain"
           />
         </div>
 
         <p className="text-[#1f1f1f] font-semibold">RESTAURANTE TRIBUTO</p>
-        <p className="text-gray-700 text-sm">Hora 7:00 pm</p>
+        <div className="flex items-center justify-center gap-2 mt-2">
+          <Image
+            src={icono3}
+            alt="Icono de reloj"
+            className="w-7 h-7 object-contain"
+          />
+          <p className="text-gray-700 text-[20px]">Hora 7:00 pm</p>
+        </div>
+
 
         <a 
           href="https://maps.app.goo.gl/c8EkWo5uvDLrQ4Tw5\"
           target="_blank\"
           rel="noopener noreferrer\"
-          className="mt-4 bg-[#024959] text-white font-semibold py-2 px-4 rounded-full shadow hover:bg-[#025373] transition">
+          className="mt-4  bg-[#024959] text-white font-semibold py-2 px-4 rounded-full shadow hover:bg-[#025373] transition">
           CLICK A UBICACIÓN
         </a>
-        <div className="text-center mt-6">
-          <p className="text-[#024873] text-base leading-relaxed">
-            Tu presencia es mi mejor regalo <br />
-            pero si deseas obsequiarme algo <br />
-            puedes hacerlo mediante la <br />
-            siguiente forma:
-          </p>
-          <div className="flex justify-center">
-            <Image
-              src={icono2} // <-- Reemplaza esta ruta
-              alt="Icono Iglesia"
-              className="w-16 h-16 object-contain"
-            />
+        
             
-            </div>
-            <p className="text-gray-700 text-base leading-relaxed">
-            LLUVIA DE SOBRES
-          </p>
-        </div>
-        <div className="text-center rounded-3xl  p-6 max-w-md w-full font-sans space-y-3">
-            <p className="text-[22px] font-cursive text-[#024959]">Hemos</p>
-            <p className="uppercase text-sm tracking-wider text-gray-700">Reservado</p>
+        <div className="text-center rounded-3xl pt-80 p-6 max-w-md w-full font-sans space-y-3">
+            <p className="text-[40px] mb-0.5 font-[Dancing_Script] font-semibold text-[#024959]">Hemos</p>
+            <p className="uppercase pt-0   text-gray-700">Reservado</p>
 
             <p className="text-4xl font-bold text-[#024873]">1</p>
-            <p className="text-gray-700 text-sm">Lugar en tu honor</p>
+            <p className="text-gray-700 text-1xl ">Lugar en tu honor</p>
 
-            <p className="text-[22px] font-cursive text-[#024873]">
+            <p className="text-[40px] font-[Dancing_Script] text-[#024873] pt-10">
               Confirma <span className="text-[#024873]">tu</span>
             </p>
             <p className="uppercase text-sm tracking-wider text-gray-700">Asistencia</p>
