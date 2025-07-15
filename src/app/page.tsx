@@ -11,16 +11,16 @@ export default function Invitacion15() {
 
   return (
     
-    <div style={{ backgroundColor: '#B3DBE6' }} className="min-h-screen flex items-center justify-center bg-#B3DBE6 p-4">
-<div
-  className="rounded-3xl shadow-2xl p-6 max-w-md w-full text-center space-y-4"
-  style={{
-    backgroundImage: "url('/img/fondo.png')",
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-  }}
->
+   <div className="flex justify-center items-center min-h-screen bg-[#B3DBE6] overflow-hidden">
+  <div
+    className="relative w-full max-w-[430px] p-6 sm:p-8 rounded-3xl shadow-2xl text-center space-y-4"
+    style={{
+      backgroundImage: "url('/img/fondo.png')",
+      backgroundSize: '100% 100%',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+    }}
+  >
       
         <div className='pt-175 pb-25'>
         
