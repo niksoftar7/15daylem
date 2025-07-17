@@ -54,7 +54,7 @@ export default function Invitacion15() {
               backgroundPosition: 'center',
             }}
           >
-            {/* Aquí va tu tarjeta original */}
+           
 
             <div className='pt-175 pb-25'>
               <div className=" text-center rounded-3xl shadow-lg p-6 max-w-md w-full space-y-4">
@@ -82,7 +82,7 @@ export default function Invitacion15() {
                 <p className="text-[#1f1f1f] font-semibold">RESTAURANTE TRIBUTO</p>
                 <div className="flex items-center justify-center gap-2 mt-2">
                   <Image src={icono3} alt="Icono de reloj" className="w-7 h-7 object-contain" />
-                  <p className="text-gray-700 text-[20px]">Hora 7:00 pm</p>
+                  <p className="text-gray-700 text-[20px]">Hora 6:30 pm</p>
                 </div>
                 <a
                   href="https://maps.app.goo.gl/c8EkWo5uvDLrQ4Tw5"
@@ -102,7 +102,7 @@ export default function Invitacion15() {
                   </p>
                   <p className="uppercase text-sm tracking-wider text-gray-700">Asistencia</p>
                   <a
-                    href="https://wa.me/3175562436?text=Hola...vengo%20a%20confirmar%20mi%20asistencia%20a%20esta%20preciosa%20fiesta%20%E2%9C%A8"
+                    href="https://wa.me/3175562436?text=Hola%E2%80%A6%20vengo%20a%20confirmar%20mi%20asistencia%20a%20los%20XV%20de%C2%A0Daylem%20%E2%9C%A8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-2 border-2 border-[#024873] text-[#000] px-6 py-2 rounded-full font-semibold hover:bg-[#024959] hover:text-white transition duration-300"
